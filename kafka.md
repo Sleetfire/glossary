@@ -198,5 +198,23 @@ Offset 2
 
 ---
 
+## Структура сообщения в Kafka
+
+Key: "Alice"
+
+Value: "Registered on your website"
+
+Timestamp: "Jun. 25, 2020 at 2:06 p.m." (CreateTime, LogAppendTime)
+
+Headers: [{"X-Generated-By": "web-host-12.eu-west2.slurm.io"}]
+
+---
+
+## Отличия Kafka от RabbitMQ
+
+> RabbitMQ и Apache Kafka по-разному передают данные от производителей к потребителям. RabbitMQ — это брокер сообщений
+> общего назначения, который отдает приоритет сквозной доставке сообщений. Kafka — это распределенная платформа для
+> потоковой трансляции событий, поддерживающая непрерывный обмен большими данными в реальном времени.
+
 
 
